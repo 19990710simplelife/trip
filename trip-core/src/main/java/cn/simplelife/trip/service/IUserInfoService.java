@@ -12,4 +12,18 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 
 public interface IUserInfoService extends IService<UserInfo> {
+    /**
+     * 校验用户电话号码是否已经被注册
+     *
+     * @param phone 手机号
+     * @return true 已注册 false 没有注册
+     */
+    boolean checkPhone(String phone);
+
+    /**
+     * 发送短信验证码
+     *
+     * @param phone 手机号
+     */
+    void sendVerifyCode(String phone);
 }
