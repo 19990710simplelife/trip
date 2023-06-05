@@ -39,7 +39,6 @@ public class UserInfoController {
     @ApiOperation("发送短信验证码")
     @GetMapping("/sendVerifyCode")
     public JsonResult sendVerifyCode(String phone) {
-        userInfoService.sendVerifyCode(phone);
-        return JsonResult.success();
+        return JsonResult.success(userInfoService.sendVerifyCode(phone));
     }
 }

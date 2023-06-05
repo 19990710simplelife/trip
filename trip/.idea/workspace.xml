@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a3daa7-13d9-4eaf-a1bb-e2eb356ed133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/IUserInfoRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/utils/RedisKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/JsonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/IUserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/resources/core.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/resources/core.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/IUserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/IUserInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/impl/UserInfoServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-web-api/target/classes/cn/simplelife/trip/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-web-api/target/classes/cn/simplelife/trip/controller/UserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-webstatics/js/system/regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-webstatics/js/system/regist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-webstatics/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-webstatics/regist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,6 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685847028752</updated>
       <workItem from="1685847030048" duration="10678000" />
+      <workItem from="1685930581121" duration="532000" />
     </task>
     <servers />
   </component>

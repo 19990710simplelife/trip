@@ -25,5 +25,5 @@ public interface IUserInfoService extends IService<UserInfo> {
      *
      * @param phone 手机号
      */
-    void sendVerifyCode(String phone);
+    String sendVerifyCode(String phone);
 }

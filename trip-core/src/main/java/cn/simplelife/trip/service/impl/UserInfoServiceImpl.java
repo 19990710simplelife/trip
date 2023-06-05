@@ -36,12 +36,13 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
     }
 
     @Override
-    public void sendVerifyCode(String phone) {
+    public String sendVerifyCode(String phone) {
         // 1 生成验证码
         String code = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 6);
         StringBuilder stringBuilder = new StringBuilder(80);
         stringBuilder.append("您注册的验证码为:").append(code).append(",请在").append(Constants.REGISTER_VERIFY_CODE_VAI_TIME * 60L).append("分钟内使用!");
         System.out.println(stringBuilder);
         userInfoRedisService.saveRegisterVerifyCode(phone, code);
+        return code;
     }
 }
