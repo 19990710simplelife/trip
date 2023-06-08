@@ -34,4 +34,12 @@ public interface IUserInfoRedisService {
      * @return token
      */
     String setToken(UserInfo currentUser);
+
+    /**
+     * 从缓存中获取当前登录用户信息
+     *
+     * @param token 令牌信息
+     * @return 用户对象
+     */
+    UserInfo getCurrentUser(String token);
 }

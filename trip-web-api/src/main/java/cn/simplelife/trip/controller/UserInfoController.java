@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.security.auth.login.LoginException;
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,6 +38,14 @@ public class UserInfoController {
 
     @Autowired
     private IUserInfoRedisService userInfoRedisService;
+
+    @ApiOperation("获取当前登录的用户信息")
+    @GetMapping("/detail")
+    public JsonResult currentUser(HttpServletRequest request) {
+        String token = request.getHeader("token");
+        UserInfo userInfo = userInfoRedisService.getCurrentUser(token);
+        return JsonResult.success(userInfo);
+    }
 
     @GetMapping("/detail")
     public UserInfo detail(Long id) {

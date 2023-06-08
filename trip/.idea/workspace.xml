@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a3daa7-13d9-4eaf-a1bb-e2eb356ed133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/exception/LogicException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/AssertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/advice/CommonExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/domain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/domain/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/IUserInfoRedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/IUserInfoRedisService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/utils/RedisKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/utils/RedisKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/IUserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/IUserInfoRedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/IUserInfoRedisService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/IUserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/IUserInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/impl/UserInfoServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trip-web-api/target/classes/cn/simplelife/trip/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-web-api/target/classes/cn/simplelife/trip/controller/UserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17538.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17538.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-webstatics/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-webstatics/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-webstatics/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-webstatics/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +208,7 @@
       <updated>1685847028752</updated>
       <workItem from="1685847030048" duration="10678000" />
       <workItem from="1685930581121" duration="4048000" />
-      <workItem from="1686187668359" duration="11327000" />
+      <workItem from="1686187668359" duration="14676000" />
     </task>
     <servers />
   </component>
@@ -236,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685860062839" />
-    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1686193698962">
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1686215531854">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686193698962" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686215531854" />
     <state x="556" y="151" key="FileChooserDialogImpl" timestamp="1685859959174">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

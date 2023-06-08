@@ -8,6 +8,7 @@ import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -43,5 +44,19 @@ public class UserInfoRedisServiceImpl implements IUserInfoRedisService {
         String value = JSON.toJSONString(currentUser);
         redisTemplate.opsForValue().set(key, value, RedisKeys.USER_LOGIN_TOKEN.getTime(), TimeUnit.SECONDS);
         return token;
+    }
+
+    @Override
+    public UserInfo getCurrentUser(String token) {
+        if (!StringUtils.hasText(token)) {
+            return null;
+        }
+        String key = RedisKeys.USER_LOGIN_TOKEN.join(token);
+        if (redisTemplate.hasKey(key)) {
+            String userJson = redisTemplate.opsForValue().get(key);
+            redisTemplate.expire(key, RedisKeys.USER_LOGIN_TOKEN.getTime(), TimeUnit.SECONDS);
+            return JSON.parseObject(userJson, UserInfo.class);
+        }
+        return null;
     }
 }
