@@ -25,7 +25,6 @@ public class UserInfo extends BaseDomain{
     private String nickname;  //昵称
     private String phone;  //手机
     private String email;  //邮箱
-
     @JsonIgnore
     private String password; //密码
     private Integer gender = GENDER_SECRET; //性别
@@ -34,6 +33,5 @@ public class UserInfo extends BaseDomain{
     private String headImgUrl; //头像
     private String info;  //个性签名
     private Integer state = STATE_NORMAL; //状态
-
 }
 

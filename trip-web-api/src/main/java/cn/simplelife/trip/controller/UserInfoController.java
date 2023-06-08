@@ -1,14 +1,24 @@
 package cn.simplelife.trip.controller;
 
 import cn.simplelife.trip.domain.UserInfo;
+import cn.simplelife.trip.exception.LogicException;
+import cn.simplelife.trip.redis.service.IUserInfoRedisService;
 import cn.simplelife.trip.service.IUserInfoService;
 import cn.simplelife.trip.utils.JsonResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import net.bytebuddy.asm.Advice;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.security.auth.login.LoginException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @ClassName UserInfoController
@@ -25,6 +35,9 @@ public class UserInfoController {
     @Autowired
     private IUserInfoService userInfoService;
 
+    @Autowired
+    private IUserInfoRedisService userInfoRedisService;
+
     @GetMapping("/detail")
     public UserInfo detail(Long id) {
         return userInfoService.getById(id);
@@ -40,5 +53,24 @@ public class UserInfoController {
     @GetMapping("/sendVerifyCode")
     public JsonResult sendVerifyCode(String phone) {
         return JsonResult.success(userInfoService.sendVerifyCode(phone));
+    }
+
+    @ApiOperation("用户注册")
+    @PostMapping("/regist")
+    public JsonResult regist(String phone, String nickname, String password, String rpassword, String verifyCode) {
+        userInfoService.regist(phone, nickname, password, rpassword, verifyCode);
+        return JsonResult.success();
+    }
+
+    @ApiOperation("用户登录")
+    @PostMapping("/login")
+    public JsonResult login(String username, String password) {
+        UserInfo currentUser = userInfoService.login(username, password);
+        // 创建token 缓存到redis
+        String token = userInfoRedisService.setToken(currentUser);
+        Map<String, Object> userLoginMap = new HashMap<>();
+        userLoginMap.put("token", token);
+        userLoginMap.put("user", currentUser);
+        return JsonResult.success(userLoginMap);
     }
 }

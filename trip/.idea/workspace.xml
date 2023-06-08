@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a3daa7-13d9-4eaf-a1bb-e2eb356ed133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/exception/LogicException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/AssertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/advice/CommonExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/domain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/domain/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/IUserInfoRedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/IUserInfoRedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/utils/RedisKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/redis/utils/RedisKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/IUserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/IUserInfoRedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/IUserInfoRedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/redis/service/impl/UserInfoRedisServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/IUserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/IUserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-core/target/classes/cn/simplelife/trip/service/impl/UserInfoServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-web-api/src/main/java/cn/simplelife/trip/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trip-web-api/target/classes/cn/simplelife/trip/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trip-web-api/target/classes/cn/simplelife/trip/controller/UserInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17538.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17538.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trip-core/src/main/java/cn/simplelife/trip" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -71,6 +85,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javaStudy\project\project2_trip\trip-core\src\main\java\cn\simplelife\trip" />
       <recent name="F:\javaStudy\project\project2_trip\trip-core\src\main\java\cn\simplelife\trip\utils" />
       <recent name="F:\javaStudy\project\project2_trip\trip-webstatics" />
     </key>
@@ -204,7 +219,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685847028752</updated>
       <workItem from="1685847030048" duration="10678000" />
-      <workItem from="1685930581121" duration="532000" />
+      <workItem from="1685930581121" duration="4048000" />
+      <workItem from="1686187668359" duration="11327000" />
     </task>
     <servers />
   </component>
@@ -220,62 +236,62 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685860062839" />
-    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1685870613328">
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1686193698962">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685870613328" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686193698962" />
     <state x="556" y="151" key="FileChooserDialogImpl" timestamp="1685859959174">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="556" y="151" key="FileChooserDialogImpl/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685859959174" />
-    <state width="1573" height="285" key="GridCell.Tab.0.bottom" timestamp="1685871105171">
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.0.center" timestamp="1685871105170">
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105170" />
-    <state width="1573" height="285" key="GridCell.Tab.0.left" timestamp="1685871105170">
+    <state width="1877" height="267" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105170" />
-    <state width="1573" height="285" key="GridCell.Tab.0.right" timestamp="1685871105170">
+    <state width="1877" height="267" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105170" />
-    <state width="1573" height="285" key="GridCell.Tab.1.bottom" timestamp="1685871105171">
+    <state width="1877" height="267" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.1.bottom" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.1.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.1.center" timestamp="1685871105171">
+    <state width="1877" height="267" key="GridCell.Tab.1.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.1.center" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.1.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.1.left" timestamp="1685871105171">
+    <state width="1877" height="267" key="GridCell.Tab.1.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.1.left" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.1.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.1.right" timestamp="1685871105171">
+    <state width="1877" height="267" key="GridCell.Tab.1.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1877" height="267" key="GridCell.Tab.1.right" timestamp="1686205488828">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.1.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.2.bottom" timestamp="1685871105171">
+    <state width="1877" height="267" key="GridCell.Tab.1.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686205488828" />
+    <state width="1573" height="205" key="GridCell.Tab.2.bottom" timestamp="1686188040805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.2.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.2.center" timestamp="1685871105171">
+    <state width="1573" height="205" key="GridCell.Tab.2.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686188040805" />
+    <state width="1573" height="205" key="GridCell.Tab.2.center" timestamp="1686188040805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.2.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.2.left" timestamp="1685871105171">
+    <state width="1573" height="205" key="GridCell.Tab.2.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686188040805" />
+    <state width="1573" height="205" key="GridCell.Tab.2.left" timestamp="1686188040805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.2.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
-    <state width="1573" height="285" key="GridCell.Tab.2.right" timestamp="1685871105171">
+    <state width="1573" height="205" key="GridCell.Tab.2.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686188040805" />
+    <state width="1573" height="205" key="GridCell.Tab.2.right" timestamp="1686188040805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1573" height="285" key="GridCell.Tab.2.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685871105171" />
+    <state width="1573" height="205" key="GridCell.Tab.2.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686188040805" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1685861645768">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -284,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="151" y="134" key="new project wizard/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685847310565" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1685861033603">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1686201092872">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1685861033603" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1686201092872" />
     <state x="610" y="208" key="spring file set editor" timestamp="1685848939039">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

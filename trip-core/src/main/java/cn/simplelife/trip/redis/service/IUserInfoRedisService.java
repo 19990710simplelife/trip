@@ -1,5 +1,7 @@
 package cn.simplelife.trip.redis.service;
 
+import cn.simplelife.trip.domain.UserInfo;
+
 /**
  * @ClassName IUserInfoRedisService
  * @Description
@@ -16,4 +18,20 @@ public interface IUserInfoRedisService {
      * @param code  验证码
      */
     void saveRegisterVerifyCode(String phone, String code);
+
+    /**
+     * 获取注册验证码
+     *
+     * @param phone 手机号
+     * @return 注册验证码
+     */
+    String getVerifyCode(String phone);
+
+    /**
+     * 创建token并缓存到redis
+     *
+     * @param currentUser 用户对象
+     * @return token
+     */
+    String setToken(UserInfo currentUser);
 }
